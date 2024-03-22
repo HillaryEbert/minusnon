@@ -1,0 +1,40 @@
+{
+  "name": "minusnon",
+  "version": "1.0.0",
+  "description": "Calculates similarity between two strings",
+  "keywords": [
+    "aspernatur",
+    "string similarity",
+    "dice coefficient",
+    "facilis",
+    "sorenson-dice",
+    "fuzzy",
+    "string match",
+    "necessitatibus",
+    "quisquam",
+    "ut",
+    "numquam",
+    "compare strings"
+  ],
+  "main": "dist/string-similarity.js",
+  "scripts": {
+    "test": "istanbul cover --include-all-sources jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HillaryEbert/minusnon.git"
+  },
+  "author": "CoraOlson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/jasmine": "^3.8.2",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "istanbul": "^0.4.5",
+    "jasmine-node": "^3.0.0",
+    "tslint": "^5.20.1",
+    "typescript": "^4.3.5"
+  }
+}
